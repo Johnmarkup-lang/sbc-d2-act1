@@ -49,7 +49,7 @@ word = "summer bootcamp"
 #print(word.replace("s", "S"))
 
 print(word.title())
-print(word.title().replace("p", "P"))
+print(word.capitalize().replace("p", "P"))
 print(word[7:11].replace("b", "L"))
 print(word[11:15]. replace("p", "E"))
 print(word[12].capitalize() +word[5].capitalize())
